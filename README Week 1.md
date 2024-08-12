@@ -82,12 +82,15 @@ Key Features:
 
 package.json:
 
-- Project Metadata: The package.json file holds key information about the project, such as its name, version, and description.
-- Dependencies: It lists all the npm packages (dependencies) your React application requires to run, including React itself, and any other libraries or tools you've installed. 
-This allows others to install the exact same dependencies using npm install.
+![alt text](image-7.png)
 
-- Scripts: It defines custom scripts that can be run with npm run, such as start for running a development server, build for creating a production build, and test for running tests.
-- Project Management: It also includes configuration options for version control, scripts for building and testing the app, and even basic configurations for the project.
+
+I selected this package.json configuration because it represents a critical component of the backend Nest.js project within the overall application. This file defines the dependencies, scripts, and testing framework that are essential for building, running, and maintaining the backend services.
+
+Overall, I gained a deeper understanding of how to structure and manage a Node.js project using Nest.js. I learned how to set up various scripts for development, production, and testing, which streamline the development process. I also explored how Jest is configured within a Nest.js project to handle unit and integration testing.
+
+One surprising aspect was the comprehensive configuration options available within the package.json file, particularly how Jest integrates with TypeScript through ts-jest to enable testing in a TypeScript environment. I was also surprised by how easy it is to customize the development workflow by modifying the scripts section, which allows for different modes of operation like start:dev, start:debug, and start:prod.
+
 
 .gitignore:
 
